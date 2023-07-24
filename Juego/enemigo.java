@@ -19,7 +19,7 @@ public class enemigo extends Actor
     }
     public void moveAround()
     {
-         move(1);
+         move(2);
          if (Greenfoot.getRandomNumber(100) < 10)
          {
              turn(Greenfoot.getRandomNumber(90) - 45);
